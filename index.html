@@ -16,6 +16,11 @@
     <title>Navs</title>
 
     <style>
+    
+      html {
+        font-size: 15px;
+      }
+
       #backGroundImage {
         background-image: url(https://images.unsplash.com/photo-1518832553480-cd0e625ed3e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
         background-size: cover;
@@ -33,7 +38,7 @@
 
       #mainHeaderTextColor {
         color: rgba(2, 146, 2, 0.786);
-        font-size: 125px;
+        font-size: 3rem;
         font-family: sans-serif;
         display: flex;
         justify-content: space-evenly;
@@ -42,6 +47,24 @@
       #softBackground {
         background-color: green;
       }
+
+      #midPage {
+        display: flex;
+        height: 20rem;
+        margin-top: 15rem;
+      
+      }
+
+      .largeText {
+        color: rgb(18, 151, 87);
+        justify-content: center;
+        background-color: rgba(12, 104, 49, 0.12);
+        align-content: space-around;
+        flex-wrap: wrap;
+        font-size: 4rem;
+
+      }
+
     </style>
   </head>
 
@@ -111,13 +134,56 @@
       </div>
     </nav>
 
-    <div id="mainPage" class="container-fluid">
-      <div
-        class="row"
-        style="height: 600px; align-content: center">
-        <div class="col-1"></div>
-        <div class="col-10"></div>
+    <div id="mainPage" class="container">
+      <h1 class="display-1 text-center" style="justify-content: center; align-items: center; margin-top: 10rem;">Possum's Cafe</h1>
+      <div class="row" style="height: 30rem; align-content: center;">
+        <div class="col-4">
+          <div class="card" style="widows: 18rem;">
+            <img
+              class="card-img-top"
+              src="https://upload.wikimedia.org/wikipedia/commons/2/27/Opossum_2.jpg"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-white text-center">Stunning</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="widows: 18rem;">
+            <img class="card-img-top"
+            src="https://images.unsplash.com/photo-1519003017532-75fb8e1d4a2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1598&q=80
+            alt="Card image">
+            <div class="card-img-overlay">
+              <h4 class="card-title text-white text-center">Stunning</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="widows: 18rem;">
+            <img
+              class="card-img-top"
+              src="https://images.unsplash.com/photo-1577879673880-1f9c0e75b250?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-white text-center">Stunning</h4>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+    <div id="midPage" class="container-fluid largeText">
+
+      <div class="row">
+        <h2 class="largeText">Who are we?</h2>
+
+
+      </div>
+
+
+
+
     </div>
   </body>
 </html>
