@@ -1,3 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
 <!doctype html>
 <html lang="en">
 
@@ -8,10 +24,192 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
 
+
     <title>Navs</title>
 
     <style>
-    .backGroundImage{
+    
+      html {
+        font-size: 15px;
+      }
+
+      #backGroundImage {
+        background-image: url(https://images.unsplash.com/photo-1518832553480-cd0e625ed3e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+        background-size: cover;
+        background-position: center;
+      }
+
+      #navColor {
+        background-color: rgb(237, 237, 237);
+      }
+
+      #logo {
+        height: 2em;
+        margin-top: -2px;
+      }
+
+      #mainHeaderTextColor {
+        color: rgba(2, 146, 2, 0.786);
+        font-size: 3rem;
+        font-family: sans-serif;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      #softBackground {
+        background-color: green;
+      }
+
+      #midPage {
+        display: flex;
+        height: 20rem;
+        margin-top: 15rem;
+      
+      }
+
+      .largeText {
+        color: rgb(18, 151, 87);
+        justify-content: center;
+        background-color: rgba(12, 104, 49, 0.12);
+        align-content: space-around;
+        flex-wrap: wrap;
+        font-size: 4rem;
+
+      }
+
+    </style>
+  </head>
+
+  <body id="backGroundImage">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"
+        ><img
+          id="logo"
+          src="https://pluspng.com/img-png/png-possum-some-of-our-projects-operate-on-a-monthly-retainer-so-if-there-is-time-remaining-this-month-the-possum-gets-256.png"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutUs.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutPossums.html">About Possums</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="forms.html">Forms</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Explore</a>
+              <a class="dropdown-item" href="#">Mission Statement</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Careers</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div id="mainPage" class="container">
+      <h1 class="display-1 text-center" style="justify-content: center; align-items: center; margin-top: 10rem;">Possum's Cafe</h1>
+      <div class="row" style="height: 30rem; align-content: center;">
+        <div class="col-4">
+          <div class="card" style="widows: 18rem;">
+            <img
+              class="card-img-top"
+              src="https://upload.wikimedia.org/wikipedia/commons/2/27/Opossum_2.jpg"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-white text-center">Stunning</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="widows: 18rem;">
+            <img class="card-img-top"
+            src="https://images.unsplash.com/photo-1519003017532-75fb8e1d4a2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1598&q=80
+            alt="Card image">
+            <div class="card-img-overlay">
+              <h4 class="card-title text-white text-center">Stunning</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="widows: 18rem;">
+            <img
+              class="card-img-top"
+              src="https://images.unsplash.com/photo-1577879673880-1f9c0e75b250?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+              alt="Card image"
+            />
+            <div class="card-img-overlay">
+              <h4 class="card-title text-white text-center">Stunning</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="midPage" class="container-fluid largeText">
+
+      <div class="row">
+        <h2 class="largeText">Who are we?</h2>
+
+
+      </div>
+
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  </body>
+</html>
+
+    <!-- .backGroundImage{
         background-image: url(https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=955&q=80);
     }
 
@@ -65,20 +263,4 @@
         </div>
 
 
-      </div>
-
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+      </div> -->
